@@ -1,0 +1,36 @@
+html { background-color: white; }
+#logo { float: left;
+        font-weight: bold;
+        font-size: 20;
+        color: white;
+        font-style: normal;
+        width: 10px;
+        padding-left: 5px;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+                }
+
+
+
+
+header { padding-top: 1px; }
+
+body{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:100px;
+    margin-right:100px;
+    background:#F0F0F0;
+    height:
+}
+div { float: right }
+
+
+.icon { display: inline-block; }
+h1 { display: inline-block; }
+nav {disply: inline-block; }
+nav ul li { display: inline-block; }
+h1 { border-style: solid; }
+
+#line header { color: white; }
