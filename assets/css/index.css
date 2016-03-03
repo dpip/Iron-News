@@ -1,36 +1,64 @@
-html { background-color: white; }
-#logo { float: left;
+html {
+  background-color: white;
+}
+
+#logo {
+        float: left;
+        text-align: center;
         font-weight: bold;
-        font-size: 20;
+        font-size: 30px;
         color: white;
-        font-style: normal;
-        width: 10px;
-        padding-left: 5px;
+        height: 46px;
+        width: 36px;
+        padding-left: 2px;
+        padding-top: 18px;
         border-style: solid;
-        border-width: 1px;
+        border-width: 3px;
         border-color: white;
-                }
+        border-radius: 1em;
+        margin: 6px;
+}
 
-
-
-
-header { padding-top: 1px; }
+header {
+  padding-top: 1px;
+  height: 80px;
+  background-color: rgb(0, 170, 170);
+}
 
 body{
     margin-top:20px;
     margin-bottom:20px;
     margin-left:100px;
     margin-right:100px;
-    background:#F0F0F0;
-    height:
+    background-color: rgb(0, 203, 162);
 }
-div { float: right }
+
+.logIn {
+  margin-left: 36em;
+  float: right;
+}
+
+.icon {
+  display: inline-block;
+}
+
+h1 {
+  display: inline-block;
+}
+
+nav {
+  display: inline-block;
+ }
+
+nav ul li {
+  display: inline-block;
+}
 
 
-.icon { display: inline-block; }
-h1 { display: inline-block; }
-nav {disply: inline-block; }
-nav ul li { display: inline-block; }
-h1 { border-style: solid; }
+h1 {
+   border-style: solid;
+  }
 
-#line header { color: white; }
+#line header {
+  color: white;
+ }
