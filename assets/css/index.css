@@ -2,6 +2,14 @@ html {
   background-color: white;
 }
 
+body{
+    margin-top:20px;
+    margin-bottom:20px;
+    margin-left:100px;
+    margin-right:100px;
+    /*background-color: rgb(0, 203, 162);*/
+}
+
 #logo {
         float: left;
         text-align: center;
@@ -11,7 +19,7 @@ html {
         height: 46px;
         width: 36px;
         padding-left: 2px;
-        padding-top: 18px;
+        padding-top: 13px;
         border-style: solid;
         border-width: 3px;
         border-color: white;
@@ -20,22 +28,36 @@ html {
 }
 
 header {
-  padding-top: 1px;
+  /*padding-top: 1px;*/
   height: 80px;
   background-color: rgb(0, 170, 170);
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(255, 214, 0);
+  border-radius: 10px;
 }
 
-body{
-    margin-top:20px;
-    margin-bottom:20px;
-    margin-left:100px;
-    margin-right:100px;
-    background-color: rgb(0, 203, 162);
+#titleWrap {
+  padding-top: 2em;
+  margin-right: 1em;
+}
+.optionWrap {
+  margin-left: 2em;
+}
+.optionTabs {
+  height: 70px;
+  width: 120px;
+  border: 2px solid black;
+  text-align: center;
+}
+ol {
+  margin-top: 5%;
+  color: black;
 }
 
 .logIn {
-  margin-left: 36em;
   float: right;
+  margin-right: 1em;
 }
 
 .icon {
@@ -44,20 +66,17 @@ body{
 
 h1 {
   display: inline-block;
+  border-style: solid;
 }
 
 nav {
-  display: inline-block;
+  width: 100%;
  }
 
-nav ul li {
+ul li {
   display: inline-block;
+
 }
-
-
-h1 {
-   border-style: solid;
-  }
 
 #line header {
   color: white;

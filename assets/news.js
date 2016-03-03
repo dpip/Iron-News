@@ -9,5 +9,5 @@
 $('.arrowClick').on('click', function() {
 
     $(this).toggleClass('ipsums');
-
+    
 });
